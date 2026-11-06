@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ANEK — Many products. One company.</title>
-<meta name="description" content="ANEK is the parent company for technology, apps, AI and digital products. Many products. One company.">
+<title>ANEK — Many possibilities. One direction.</title>
+<meta name="description" content="ANEK is an independent technology company focused on creating innovative applications, artificial intelligence solutions, software and digital products.">
 <meta name="theme-color" content="#111111">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -38,12 +38,13 @@
   @media(max-width:760px){nav{display:none}}
 
   /* ---------- hero ---------- */
-  .hero{padding:96px 0 72px;text-align:center}
+  .hero{padding:96px 0 80px;text-align:center}
   .hero .mark{width:132px;height:132px;margin:0 auto 28px;color:var(--ink)}
   .hero h1{font-size:clamp(56px,12vw,120px);font-weight:900;letter-spacing:-.045em;line-height:.95}
   .hero h1 .dot{color:var(--signal)}
   .hero .tag{margin-top:18px;font-size:clamp(20px,4vw,28px);font-weight:600;letter-spacing:-.02em}
-  .hero .sub{margin:16px auto 0;max-width:560px;color:var(--muted);font-size:17px}
+  .hero .direction{margin-top:10px;font-size:clamp(17px,3vw,21px);font-weight:500;color:var(--muted)}
+  .hero .sub{margin:22px auto 0;max-width:600px;color:var(--muted);font-size:17px}
   .hero .cta{margin-top:32px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
   .btn{display:inline-block;padding:13px 24px;border-radius:999px;font-weight:600;font-size:15px}
   .btn-solid{background:var(--ink);color:#fff}
@@ -58,80 +59,13 @@
   .lead{font-size:19px;color:var(--muted);max-width:640px}
   .lead b{color:var(--ink);font-weight:600}
 
-  /* ---------- name ---------- */
-  .name-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
-  @media(max-width:640px){.name-grid{grid-template-columns:1fr}}
-  .name-card{background:var(--mist);border-radius:20px;padding:28px}
-  .name-card .script{font-size:34px;font-weight:800;letter-spacing:-.02em}
-  .name-card .lang{font-size:13px;font-weight:600;color:var(--muted);margin-top:4px}
-  .name-card p{margin-top:12px;font-size:15px;color:var(--muted)}
-  .name-card p b{color:var(--ink)}
-
-  /* ---------- logo ---------- */
-  .logo-show{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:36px}
-  @media(max-width:640px){.logo-show{grid-template-columns:1fr}}
-  .logo-tile{border:1px solid var(--line);border-radius:20px;padding:36px 24px 24px;text-align:center}
-  .logo-tile.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
-  .logo-tile svg{width:96px;height:96px;margin:0 auto 20px;display:block}
-  .logo-tile .lbl{font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-  .logo-tile.dark .lbl{color:#9a9a96}
-  .logo-tile.mono svg .dots circle{fill:currentColor}
-  .logo-notes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:16px}
-  @media(max-width:640px){.logo-notes{grid-template-columns:1fr}}
-  .note{border-top:2px solid var(--ink);padding-top:14px}
-  .note h3{font-size:16px;font-weight:700;margin-bottom:6px}
-  .note p{font-size:14.5px;color:var(--muted)}
-  .note p b{color:var(--ink)}
-
-  /* ---------- colours ---------- */
-  .swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
-  @media(max-width:640px){.swatches{grid-template-columns:1fr 1fr}}
-  .sw{border:1px solid var(--line);border-radius:20px;overflow:hidden}
-  .sw .chip{height:110px}
-  .sw .meta{padding:16px 18px}
-  .sw .meta h3{font-size:16px;font-weight:700}
-  .sw .meta p{font-size:13.5px;color:var(--muted);margin-top:2px}
-  .sw .hex{font-size:13px;font-weight:600;font-family:ui-monospace,Menlo,monospace;margin-top:8px}
-  .rule{margin-top:28px;background:var(--mist);border-radius:16px;padding:20px 22px;font-size:15px;color:var(--muted)}
-  .rule b{color:var(--ink)}
-
-  /* ---------- type ---------- */
-  .type-demo{margin-top:36px;border:1px solid var(--line);border-radius:20px;padding:32px}
-  .type-demo .display{font-size:clamp(34px,7vw,64px);font-weight:900;letter-spacing:-.04em;line-height:1.02}
-  .type-demo .body-ex{margin-top:18px;font-size:17px;color:var(--muted);max-width:600px}
-  .type-meta{display:flex;gap:32px;flex-wrap:wrap;margin-top:24px;font-size:14px;color:var(--muted)}
-  .type-meta b{color:var(--ink);display:block;font-size:15px}
-
-  /* ---------- principles ---------- */
-  .principles{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:36px}
-  @media(max-width:640px){.principles{grid-template-columns:1fr}}
-  .pr{border:1px solid var(--line);border-radius:20px;padding:26px}
-  .pr .num{font-size:13px;font-weight:800;color:var(--signal);letter-spacing:.1em}
-  .pr h3{font-size:19px;font-weight:700;margin:8px 0 6px;letter-spacing:-.01em}
-  .pr p{font-size:15px;color:var(--muted)}
-  .voice{margin-top:28px;font-size:15px;color:var(--muted);border-left:3px solid var(--signal);padding-left:18px}
-  .voice b{color:var(--ink)}
-
-  /* ---------- architecture ---------- */
-  .arch{margin-top:36px}
-  .parent{border:2px solid var(--ink);border-radius:20px;padding:26px 28px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-  .parent svg{width:44px;height:44px;color:var(--ink)}
-  .parent .pname{font-size:26px;font-weight:800;letter-spacing:-.03em}
-  .parent .prole{font-size:14px;color:var(--muted)}
-  .connector{text-align:center;color:var(--muted);font-size:13px;padding:10px 0;letter-spacing:.1em}
-  .divs{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  @media(max-width:640px){.divs{grid-template-columns:1fr}}
-  .div{border:1px solid var(--line);border-radius:20px;padding:24px}
-  .div .dname{font-size:18px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
-  .div .dname .cdot{width:11px;height:11px;border-radius:50%;flex:none}
-  .div p{font-size:14.5px;color:var(--muted);margin:8px 0 14px}
-  .div .tags{display:flex;flex-wrap:wrap;gap:8px}
-  .div .tags span{font-size:13.5px;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:5px 12px}
-  .rules{margin-top:28px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-  @media(max-width:640px){.rules{grid-template-columns:1fr}}
-  .rule-card{border-top:2px solid var(--signal);padding-top:14px}
-  .rule-card h3{font-size:15.5px;font-weight:700;margin-bottom:6px}
-  .rule-card p{font-size:14px;color:var(--muted)}
+  /* ---------- what we do ---------- */
+  .what-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:36px}
+  @media(max-width:640px){.what-grid{grid-template-columns:1fr}}
+  .what{border:1px solid var(--line);border-radius:20px;padding:26px}
+  .what .num{font-size:13px;font-weight:800;color:var(--signal);letter-spacing:.1em}
+  .what h3{font-size:19px;font-weight:700;margin:8px 0 6px;letter-spacing:-.01em}
+  .what p{font-size:15px;color:var(--muted)}
 
   /* ---------- products ---------- */
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
@@ -147,6 +81,62 @@
   .card .go:hover{color:var(--signal)}
   .labs{margin-top:28px;font-size:15px;color:var(--muted)}
   .labs b{color:var(--ink)}
+
+  /* ---------- ecosystem / architecture ---------- */
+  .arch{margin-top:36px}
+  .parent{border:2px solid var(--ink);border-radius:20px;padding:26px 28px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .parent svg{width:44px;height:44px;color:var(--ink)}
+  .parent .pname{font-size:26px;font-weight:800;letter-spacing:-.03em}
+  .parent .prole{font-size:14px;color:var(--muted)}
+  .connector{text-align:center;color:var(--muted);font-size:13px;padding:10px 0;letter-spacing:.1em}
+  .divs{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:640px){.divs{grid-template-columns:1fr}}
+  .div{border:1px solid var(--line);border-radius:20px;padding:24px}
+  .div .dname{font-size:18px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
+  .div .dname .cdot{width:11px;height:11px;border-radius:50%;flex:none}
+  .div p{font-size:14.5px;color:var(--muted);margin:8px 0 14px}
+  .div .tags{display:flex;flex-wrap:wrap;gap:8px}
+  .div .tags span{font-size:13.5px;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:5px 12px}
+
+  /* ---------- philosophy ---------- */
+  .phil-state{margin-top:32px;font-size:clamp(24px,4.5vw,36px);font-weight:800;letter-spacing:-.03em;line-height:1.2;max-width:720px}
+  .phil-state .hl{color:var(--signal)}
+
+  /* ---------- identity ---------- */
+  .name-line{margin-top:8px;font-size:19px;color:var(--muted);max-width:640px}
+  .name-line b{color:var(--ink)}
+  .logo-show{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:36px}
+  @media(max-width:640px){.logo-show{grid-template-columns:1fr}}
+  .logo-tile{border:1px solid var(--line);border-radius:20px;padding:36px 24px 24px;text-align:center}
+  .logo-tile.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .logo-tile svg{width:96px;height:96px;margin:0 auto 20px;display:block}
+  .logo-tile .lbl{font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .logo-tile.dark .lbl{color:#9a9a96}
+  .logo-tile.mono svg .dots circle{fill:currentColor}
+  .logo-notes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:16px}
+  @media(max-width:640px){.logo-notes{grid-template-columns:1fr}}
+  .note{border-top:2px solid var(--ink);padding-top:14px}
+  .note h3{font-size:16px;font-weight:700;margin-bottom:6px}
+  .note p{font-size:14.5px;color:var(--muted)}
+  .note p b{color:var(--ink)}
+  .swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+  @media(max-width:640px){.swatches{grid-template-columns:1fr 1fr}}
+  .sw{border:1px solid var(--line);border-radius:20px;overflow:hidden}
+  .sw .chip{height:90px}
+  .sw .meta{padding:14px 18px}
+  .sw .meta h3{font-size:16px;font-weight:700}
+  .sw .meta p{font-size:13.5px;color:var(--muted);margin-top:2px}
+  .sw .hex{font-size:13px;font-weight:600;font-family:ui-monospace,Menlo,monospace;margin-top:8px}
+  .type-demo{margin-top:36px;border:1px solid var(--line);border-radius:20px;padding:32px}
+  .type-demo .display{font-size:clamp(30px,6vw,52px);font-weight:900;letter-spacing:-.04em;line-height:1.05}
+  .type-demo .body-ex{margin-top:18px;font-size:17px;color:var(--muted);max-width:600px}
+  .type-meta{display:flex;gap:32px;flex-wrap:wrap;margin-top:24px;font-size:14px;color:var(--muted)}
+  .type-meta b{color:var(--ink);display:block;font-size:15px}
+
+  /* ---------- contact ---------- */
+  .contact{text-align:center}
+  .contact .lead{margin-left:auto;margin-right:auto}
+  .contact .cta{margin-top:32px}
 
   /* ---------- footer ---------- */
   footer{border-top:1px solid var(--line);padding:48px 0 56px}
@@ -167,11 +157,10 @@
       anek
     </a>
     <nav>
-      <a href="#name">The name</a>
-      <a href="#logo">Logo</a>
-      <a href="#colours">Colours</a>
-      <a href="#architecture">Architecture</a>
+      <a href="#what-we-do">What we do</a>
       <a href="#products">Products</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#contact">Contact</a>
     </nav>
     <span class="est">Est. 2026</span>
   </div>
@@ -183,131 +172,59 @@
   <div class="wrap hero">
     <svg class="mark" viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
     <h1>ANEK<span class="dot">.</span></h1>
-    <p class="tag">Many products. One company.</p>
-    <p class="sub">ANEK is the parent company for technology, apps, AI and digital products — built in Assam, made for everyone.</p>
+    <p class="tag">Many possibilities. One direction.</p>
+    <p class="direction">Building intelligent technology for a changing world.</p>
+    <p class="sub">ANEK is an independent technology company focused on creating innovative applications, artificial intelligence solutions, software and digital products.</p>
+    <p class="sub">We bring ideas, technology and creativity together to build solutions that make a difference.</p>
     <div class="cta">
-      <a class="btn btn-solid" href="#products">See the products</a>
-      <a class="btn btn-line" href="#name">Read the identity</a>
+      <a class="btn btn-solid" href="#products">Explore what we're building →</a>
     </div>
   </div>
 
-  <!-- THE NAME -->
-  <section id="name">
+  <!-- WHAT WE DO -->
+  <section id="what-we-do">
     <div class="wrap">
-      <p class="kicker">01 — The name</p>
-      <h2>Anek means many.</h2>
-      <p class="lead">One word, three languages, one idea. <b>ANEK</b> is the word for <b>“many”</b> — the many products, the many people they serve, the many small tools that add up to one company.</p>
-      <div class="name-grid">
-        <div class="name-card">
-          <div class="script">অনেক</div>
-          <div class="lang">Assamese · anek</div>
-          <p><b>“Many.”</b> The word Saurabh grew up with — the natural name for a company that holds many products under one roof.</p>
-        </div>
-        <div class="name-card">
-          <div class="script">अनेक</div>
-          <div class="lang">Hindi &amp; Sanskrit · aneka</div>
-          <p><b>“Many, various.”</b> The same root, understood across India — a name that travels without translation.</p>
-        </div>
-      </div>
-      <p class="lead" style="margin-top:28px">Pronounced <b>ah-NEK</b>. Four letters, one syllable of work: short enough to remember, open enough to hold anything the company builds next.</p>
-    </div>
-  </section>
-
-  <!-- LOGO -->
-  <section id="logo">
-    <div class="wrap">
-      <p class="kicker">02 — The logo</p>
-      <h2>One letter, made of many.</h2>
-      <p class="lead">The mark is a single <b>A</b> — the first letter of ANEK, and a peak: the ambition of the company. Its crossbar is not a line. It is <b>five dots</b> — the many products, holding the one letter together.</p>
-      <div class="logo-show">
-        <div class="logo-tile">
-          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
-          <div class="lbl">Primary · on light</div>
-        </div>
-        <div class="logo-tile dark">
-          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
-          <div class="lbl">Reversed · on dark</div>
-        </div>
-        <div class="logo-tile mono">
-          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="currentColor"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
-          <div class="lbl">Mono · one colour</div>
-        </div>
-      </div>
-      <div class="logo-notes">
-        <div class="note">
-          <h3>The A</h3>
-          <p>One letter, one peak. <b>Geometric, no serifs, no decoration</b> — the same discipline as Meta and Alphabet: a mark a child could draw from memory.</p>
-        </div>
-        <div class="note">
-          <h3>The five dots</h3>
-          <p>Five dots, one crossbar. They are the <b>many</b> — products, people, ideas — and they are the only place the accent colour ever appears in the mark.</p>
-        </div>
-        <div class="note">
-          <h3>Clear space &amp; size</h3>
-          <p>Keep <b>one dot-height</b> of empty space around the mark on every side. Minimum size <b>24 px</b> on screen. Never stretch, recolour the A, or add effects.</p>
-        </div>
+      <p class="kicker">What we do</p>
+      <div class="what-grid">
+        <div class="what"><div class="num">01</div><h3>Artificial Intelligence</h3><p>Developing intelligent systems, AI-powered tools and automation that make technology more useful.</p></div>
+        <div class="what"><div class="num">02</div><h3>Digital Products</h3><p>Creating software, platforms and digital experiences designed around real-world needs.</p></div>
+        <div class="what"><div class="num">03</div><h3>Applications</h3><p>Building modern mobile and web applications that simplify everyday experiences.</p></div>
+        <div class="what"><div class="num">04</div><h3>Innovation</h3><p>Exploring new technologies, experimenting with ideas and turning promising concepts into products.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- COLOURS -->
-  <section id="colours">
+  <!-- WHAT WE'RE BUILDING -->
+  <section id="products">
     <div class="wrap">
-      <p class="kicker">03 — Colours</p>
-      <h2>Black, white, and one signal.</h2>
-      <p class="lead">The identity is deliberately quiet — <b>ink and paper</b> do the work. A single vivid orange, <b>Signal</b>, is reserved for the moments that matter: the dots in the mark, a key word, one button.</p>
-      <div class="swatches">
-        <div class="sw"><div class="chip" style="background:#111111"></div><div class="meta"><h3>Ink</h3><p>Text, the mark, primary surfaces.</p><div class="hex">#111111</div></div></div>
-        <div class="sw"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid var(--line)"></div><div class="meta"><h3>Paper</h3><p>Backgrounds, breathing room.</p><div class="hex">#FFFFFF</div></div></div>
-        <div class="sw"><div class="chip" style="background:#FF4D00"></div><div class="meta"><h3>Signal</h3><p>The accent. Sparingly, never as a fill.</p><div class="hex">#FF4D00</div></div></div>
-        <div class="sw"><div class="chip" style="background:#F5F5F3"></div><div class="meta"><h3>Mist</h3><p>Cards and quiet sections.</p><div class="hex">#F5F5F3</div></div></div>
-        <div class="sw"><div class="chip" style="background:#E7E7E4"></div><div class="meta"><h3>Line</h3><p>Borders and dividers.</p><div class="hex">#E7E7E4</div></div></div>
-        <div class="sw"><div class="chip" style="background:#6E6E6A"></div><div class="meta"><h3>Muted</h3><p>Secondary text only.</p><div class="hex">#6E6E6A</div></div></div>
+      <p class="kicker">What we're building</p>
+      <h2>The products live under ANEK.</h2>
+      <p class="lead">Each with its own name, its own colour, and its own job.</p>
+      <div class="grid">
+        <div class="card"><div class="top"><span class="cdot" style="background:#E12D39"></span><h3>Artho</h3></div><p>Assamese dictionary and language AI — 48,000+ words, with an open API.</p><a class="go" href="https://arthoo.vercel.app/" target="_blank" rel="noopener">Visit Artho →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#1A73E8"></span><h3>Weathr</h3></div><p>Minimal weather, five days ahead, nothing else in the way.</p><a class="go" href="https://weathrr.vercel.app/" target="_blank" rel="noopener">Visit Weathr →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#4299E1"></span><h3>Defin</h3></div><p>A clean English dictionary — a word, its meaning, done.</p><a class="go" href="https://definn.vercel.app/" target="_blank" rel="noopener">Visit Defin →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#D32D27"></span><h3>Authr</h3></div><p>Two-factor authenticator that keeps every secret on your own device.</p><a class="go" href="https://authrr.vercel.app/" target="_blank" rel="noopener">Visit Authr →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#2E7D32"></span><h3>Assampedia</h3></div><p>The encyclopedia of Assam — districts, culture, history, food.</p><a class="go" href="https://assampedia.vercel.app/" target="_blank" rel="noopener">Visit Assampedia →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#111111"></span><h3>Untrack</h3></div><p>A link cleaner that strips hidden tracking before you share.</p><a class="go" href="https://untracklink.vercel.app/" target="_blank" rel="noopener">Visit Untrack →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#111111"></span><h3>SCheck</h3></div><p>Reads a shared link and tells you, plainly, what device it came from.</p><a class="go" href="https://scheckx.vercel.app/" target="_blank" rel="noopener">Visit SCheck →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#E8590C"></span><h3>Ranna Banna</h3></div><p>Bengali recipes, kept the way home kitchens keep them.</p><a class="go" href="https://bengali-recipes.vercel.app/" target="_blank" rel="noopener">Visit Ranna Banna →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#F3731F"></span><h3>Jutika</h3></div><p>Assamese recipes — 49 dishes, one tap to cook.</p><a class="go" href="https://jutika.vercel.app/" target="_blank" rel="noopener">Visit Jutika →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#7C3AED"></span><h3>Artho Sanskrit</h3></div><p>Sanskrit dictionary from the great scholarly lexicons.</p><a class="go" href="https://artho-sanskrit.vercel.app/" target="_blank" rel="noopener">Visit Artho Sanskrit →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#1E3A5F"></span><h3>AB Enterprise</h3></div><p>Cable, wire and electricals — a Guwahati shop, online.</p><a class="go" href="https://abenterprise.vercel.app/" target="_blank" rel="noopener">Visit AB Enterprise →</a></div>
+        <div class="card"><div class="top"><span class="cdot" style="background:#B7791F"></span><h3>Cable Stock</h3></div><p>Live coil stock for the godown — sizes, colours, counts.</p><a class="go" href="https://cablestock.vercel.app/" target="_blank" rel="noopener">Visit Cable Stock →</a></div>
       </div>
-      <div class="rule"><b>The rule:</b> if everything is orange, nothing is. Signal appears once per screen — in the logo dots, or in one headline word, or in one button. Never two of those at once.</div>
+      <p class="labs"><b>And more in ANEK Labs:</b> Blinkgram · Packerr · Dugga · Mayabini · Secret · ProvCheck · EarthQ · Braille · DeviceInfo · upipe · BookSaurabh · EVM · TempMail · RingSize · BusMap · SimpleGST · GroqChat — experiments on their way to becoming products.</p>
     </div>
   </section>
 
-  <!-- TYPOGRAPHY -->
-  <section id="type">
+  <!-- ECOSYSTEM -->
+  <section id="ecosystem">
     <div class="wrap">
-      <p class="kicker">04 — Typography</p>
-      <h2>One typeface, spoken plainly.</h2>
-      <p class="lead"><b>Inter</b> — a neutral, global grotesque that reads the same in Guwahati and anywhere else. Tight tracking on headlines, generous leading on body copy, nothing decorative.</p>
-      <div class="type-demo">
-        <div class="display">Many products.<br>One company.</div>
-        <p class="body-ex">Headlines are Inter ExtraBold, tracked tight. Body copy is Inter Regular at 17&nbsp;px — large enough to read comfortably on a phone, quiet enough to disappear into the words.</p>
-        <div class="type-meta">
-          <div><b>Inter ExtraBold 900</b>Display · headlines</div>
-          <div><b>Inter SemiBold 600</b>Subheads · buttons</div>
-          <div><b>Inter Regular 400</b>Body · 17 px / 1.6</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- VOICE & PRINCIPLES -->
-  <section id="voice">
-    <div class="wrap">
-      <p class="kicker">05 — Voice &amp; principles</p>
-      <h2>Small, honest, built to last.</h2>
-      <p class="lead">Every ANEK product follows the same four principles. If a product breaks one, it is not finished yet.</p>
-      <div class="principles">
-        <div class="pr"><div class="num">01</div><h3>Small, on purpose</h3><p>Every product does one thing, and does it well. No feature bloat, no everything-app. Small is a choice, not a limitation.</p></div>
-        <div class="pr"><div class="num">02</div><h3>Private by default</h3><p>Work happens on the device wherever possible. No account walls, no tracking, no selling attention. The user’s data stays the user’s.</p></div>
-        <div class="pr"><div class="num">03</div><h3>Built to last</h3><p>No dark patterns, no ads in the core experience, no growth hacks that rot the product. A tool should still be worth opening in five years.</p></div>
-        <div class="pr"><div class="num">04</div><h3>Many, not one</h3><p>The parent stays quiet and the products speak. ANEK never crowds a product’s own name, colour, or voice.</p></div>
-      </div>
-      <p class="voice"><b>Voice:</b> plain words, short sentences, no hype. Say what it does, say what it costs, stop there. If a sentence needs an exclamation mark, rewrite the sentence.</p>
-    </div>
-  </section>
-
-  <!-- ARCHITECTURE -->
-  <section id="architecture">
-    <div class="wrap">
-      <p class="kicker">06 — Brand architecture</p>
-      <h2>One parent, four houses.</h2>
-      <p class="lead">ANEK is an <b>endorsed-brand</b> parent, in the Alphabet model: the company owns the products, the products keep their own names, marks and colours. The parent appears only as a quiet endorsement — <b>“by ANEK”</b>.</p>
+      <p class="kicker">One company. Multiple possibilities.</p>
+      <h2>One company. Multiple possibilities.</h2>
+      <p class="lead">Through our growing ecosystem of technology ventures, ANEK explores opportunities across software, AI, applications and emerging digital technologies.</p>
+      <p class="lead" style="margin-top:14px">Our divisions work toward one shared ambition: building technology that moves things forward.</p>
       <div class="arch">
         <div class="parent">
           <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
@@ -340,35 +257,83 @@
           </div>
         </div>
       </div>
-      <div class="rules">
-        <div class="rule-card"><h3>Products keep their names</h3><p>One word, their own mark, their own colour. ANEK never renames a product.</p></div>
-        <div class="rule-card"><h3>Endorsement, not branding</h3><p>“by ANEK” appears in footers and About pages only — never in a product’s header or icon.</p></div>
-        <div class="rule-card"><h3>New products start in Labs</h3><p>An idea ships as an experiment first. It earns a house when people keep coming back to it.</p></div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section id="philosophy">
+    <div class="wrap">
+      <p class="kicker">Our philosophy</p>
+      <h2>We believe the future belongs to those who build it.</h2>
+      <p class="lead">We focus on purposeful innovation, thoughtful engineering and products that solve meaningful problems.</p>
+      <p class="phil-state">Not technology for the sake of technology. <span class="hl">Technology with purpose.</span></p>
+    </div>
+  </section>
+
+  <!-- IDENTITY -->
+  <section id="identity">
+    <div class="wrap">
+      <p class="kicker">The identity</p>
+      <h2>One letter, made of many.</h2>
+      <p class="name-line"><b>Anek means “many”</b> — অনেক in Assamese, अनेक in Hindi, <i>aneka</i> in Sanskrit. The mark is a single <b>A</b>, a peak, whose crossbar is not a line but <b>five dots</b> — the many products, holding the one letter together.</p>
+      <div class="logo-show">
+        <div class="logo-tile">
+          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
+          <div class="lbl">Primary · on light</div>
+        </div>
+        <div class="logo-tile dark">
+          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
+          <div class="lbl">Reversed · on dark</div>
+        </div>
+        <div class="logo-tile mono">
+          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="currentColor"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
+          <div class="lbl">Mono · one colour</div>
+        </div>
+      </div>
+      <div class="logo-notes">
+        <div class="note">
+          <h3>The A</h3>
+          <p>One letter, one peak. <b>Geometric, no serifs, no decoration</b> — a mark a child could draw from memory.</p>
+        </div>
+        <div class="note">
+          <h3>The five dots</h3>
+          <p>Five dots, one crossbar. They are the <b>many</b> — products, people, ideas — and the only place the accent colour ever appears in the mark.</p>
+        </div>
+        <div class="note">
+          <h3>Clear space &amp; size</h3>
+          <p>Keep <b>one dot-height</b> of empty space around the mark on every side. Minimum size <b>24 px</b> on screen. Never stretch, recolour the A, or add effects.</p>
+        </div>
+      </div>
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#111111"></div><div class="meta"><h3>Ink</h3><p>Text, the mark, primary surfaces.</p><div class="hex">#111111</div></div></div>
+        <div class="sw"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid var(--line)"></div><div class="meta"><h3>Paper</h3><p>Backgrounds, breathing room.</p><div class="hex">#FFFFFF</div></div></div>
+        <div class="sw"><div class="chip" style="background:#FF4D00"></div><div class="meta"><h3>Signal</h3><p>The accent. Sparingly, never as a fill.</p><div class="hex">#FF4D00</div></div></div>
+        <div class="sw"><div class="chip" style="background:#F5F5F3"></div><div class="meta"><h3>Mist</h3><p>Cards and quiet sections.</p><div class="hex">#F5F5F3</div></div></div>
+        <div class="sw"><div class="chip" style="background:#E7E7E4"></div><div class="meta"><h3>Line</h3><p>Borders and dividers.</p><div class="hex">#E7E7E4</div></div></div>
+        <div class="sw"><div class="chip" style="background:#6E6E6A"></div><div class="meta"><h3>Muted</h3><p>Secondary text only.</p><div class="hex">#6E6E6A</div></div></div>
+      </div>
+      <div class="type-demo">
+        <div class="display">Many possibilities.<br>One direction.</div>
+        <p class="body-ex">Headlines are Inter ExtraBold, tracked tight. Body copy is Inter Regular at 17&nbsp;px — large enough to read comfortably on a phone, quiet enough to disappear into the words.</p>
+        <div class="type-meta">
+          <div><b>Inter ExtraBold 900</b>Display · headlines</div>
+          <div><b>Inter SemiBold 600</b>Subheads · buttons</div>
+          <div><b>Inter Regular 400</b>Body · 17 px / 1.6</div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PRODUCTS -->
-  <section id="products">
-    <div class="wrap">
-      <p class="kicker">07 — The portfolio</p>
-      <h2>What ANEK makes.</h2>
-      <p class="lead">The products live under ANEK today — each with its own name, its own colour, and its own job.</p>
-      <div class="grid">
-        <div class="card"><div class="top"><span class="cdot" style="background:#E12D39"></span><h3>Artho</h3></div><p>Assamese dictionary and language AI — 48,000+ words, with an open API.</p><a class="go" href="https://arthoo.vercel.app/" target="_blank" rel="noopener">Visit Artho →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#1A73E8"></span><h3>Weathr</h3></div><p>Minimal weather, five days ahead, nothing else in the way.</p><a class="go" href="https://weathrr.vercel.app/" target="_blank" rel="noopener">Visit Weathr →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#4299E1"></span><h3>Defin</h3></div><p>A clean English dictionary — a word, its meaning, done.</p><a class="go" href="https://definn.vercel.app/" target="_blank" rel="noopener">Visit Defin →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#D32D27"></span><h3>Authr</h3></div><p>Two-factor authenticator that keeps every secret on your own device.</p><a class="go" href="https://authrr.vercel.app/" target="_blank" rel="noopener">Visit Authr →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#2E7D32"></span><h3>Assampedia</h3></div><p>The encyclopedia of Assam — districts, culture, history, food.</p><a class="go" href="https://assampedia.vercel.app/" target="_blank" rel="noopener">Visit Assampedia →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#111111"></span><h3>Untrack</h3></div><p>A link cleaner that strips hidden tracking before you share.</p><a class="go" href="https://untracklink.vercel.app/" target="_blank" rel="noopener">Visit Untrack →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#111111"></span><h3>SCheck</h3></div><p>Reads a shared link and tells you, plainly, what device it came from.</p><a class="go" href="https://scheckx.vercel.app/" target="_blank" rel="noopener">Visit SCheck →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#E8590C"></span><h3>Ranna Banna</h3></div><p>Bengali recipes, kept the way home kitchens keep them.</p><a class="go" href="https://bengali-recipes.vercel.app/" target="_blank" rel="noopener">Visit Ranna Banna →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#F3731F"></span><h3>Jutika</h3></div><p>Assamese recipes — 49 dishes, one tap to cook.</p><a class="go" href="https://jutika.vercel.app/" target="_blank" rel="noopener">Visit Jutika →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#7C3AED"></span><h3>Artho Sanskrit</h3></div><p>Sanskrit dictionary from the great scholarly lexicons.</p><a class="go" href="https://artho-sanskrit.vercel.app/" target="_blank" rel="noopener">Visit Artho Sanskrit →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#1E3A5F"></span><h3>AB Enterprise</h3></div><p>Cable, wire and electricals — a Guwahati shop, online.</p><a class="go" href="https://abenterprise.vercel.app/" target="_blank" rel="noopener">Visit AB Enterprise →</a></div>
-        <div class="card"><div class="top"><span class="cdot" style="background:#B7791F"></span><h3>Cable Stock</h3></div><p>Live coil stock for the godown — sizes, colours, counts.</p><a class="go" href="https://cablestock.vercel.app/" target="_blank" rel="noopener">Visit Cable Stock →</a></div>
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap contact">
+      <p class="kicker">Get in touch</p>
+      <h2>The future is built, not predicted.</h2>
+      <p class="lead">Have an idea, a partnership opportunity or a challenge worth solving?</p>
+      <p class="lead" style="margin-top:6px">Let's build something meaningful.</p>
+      <div class="cta">
+        <a class="btn btn-solid" href="mailto:saurabh@hey.mailb.us">Get in touch →</a>
       </div>
-      <p class="labs"><b>And more in ANEK Labs:</b> Blinkgram · Packerr · Dugga · Mayabini · Secret · ProvCheck · EarthQ · Braille · DeviceInfo · upipe · BookSaurabh · EVM · TempMail · RingSize · BusMap · SimpleGST · GroqChat — experiments on their way to becoming products.</p>
     </div>
   </section>
 
@@ -381,9 +346,9 @@
         <svg viewBox="0 0 120 120" fill="none" aria-hidden="true"><path d="M30 96 L60 24 L90 96" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><g class="dots" fill="#FF4D00"><circle cx="46" cy="72" r="3"/><circle cx="53" cy="72" r="3"/><circle cx="60" cy="72" r="3"/><circle cx="67" cy="72" r="3"/><circle cx="74" cy="72" r="3"/></g></svg>
         anek
       </a>
-      <p class="tag">Many products. One company.</p>
+      <p class="tag">Many possibilities. One direction.</p>
     </div>
-    <p class="copy">© 2026 ANEK<br>A parent company for technology, apps,<br>AI and digital products.</p>
+    <p class="copy">© ANEK. All rights reserved.</p>
   </div>
 </footer>
 
