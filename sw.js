@@ -1,5 +1,5 @@
-const CACHE = 'anek-cache-v3';
-const ASSETS = ['.', 'index.html', 'manifest.json',
+const CACHE = 'anek-cache-v12';
+const ASSETS = ['.', 'index.html', 'brand.html', 'manifest.json',
   'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
